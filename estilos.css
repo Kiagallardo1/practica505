@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+    color: #fff;
+    text-align: center;
+    font-family: 'Noto Sans Mono', monospace;
+}
+img{
+    width: 200px;
+    height: 280px;
+    border-radius: 100%;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+  display: block;
+  width: 200px;
+  padding: 20px;
+  margin: 20px auto;
+  border: 2px solid #fff;
+}
+a:hover{
+    box-shadow: 0 0 20px #fff;
+    transform: scale(1.1);
+}
