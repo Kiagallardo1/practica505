@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    
+    background: rgb(244, 147, 242);
+    background: linear-gradient(90deg, rgb(89, 169, 195) 0%, rgb(144, 47, 222) 35%, rgb(220, 238, 139) 100%);
+}
+
+header{
+    width: 100%;
+margin: 20px auto ;
+text-align: center;
+color: rgb(0, 0, 0);
+font-size: 30px;
+}
+
+img{
+    margin: auto;
+    display:block;
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(90deg, rgb(159, 147, 199) 1%, rgba(157, 207, 228, 0.928) 100%);margin: auto;
+
+border: 5px solid linear-gradient(90deg, rgb(152, 108, 198) 1%, rgba(149, 242, 211, 0.928) 100%);margin: auto;
+
+border-radius: 100%;
+position: relative;
+top: 35px;
+z-index: 1;
+}
+
+section{
+width: 400px;
+height: 550px;
+text-align: center;
+background: linear-gradient(90deg, rgb(191, 115, 236) 1%, rgba(123, 125, 228, 0.928) 100%);margin: auto;
+border-radius: 50px;
+padding: 50px;
+position: relative;
+top: -10px;
+}
+
+input{
+     display: block;
+width: 100%;
+height: 35px;
+margin: 5px;
+border: 2px solid rgb(222, 128, 254);
+font-size: 20px;
+
+}
+input:focus{
+    box-shadow: 0 0 30px salmon;
+}
+input::placeholder{
+
+padding-left: 20px;
+font-size: 20px;
+opacity: .5;
+}
+
+button{
+width: 150px;
+height: 25px;
+margin: 10px;
+border: none;
+border-radius: 20px;
+font-size: 15px;
+font-weight: bold;
+padding:4px;
+}
+
+.claro{
+    color: rgb(1, 7, 5);
+    
+}
+
+.mover{
+margin-top: 10px;
+}
+.btn-login{
+    box-shadow: 0 0 20px rgb(218, 241, 9);
+
+    background-color: rgb(245, 191, 153);
+}
+.btn-face{
+    box-shadow: 0 0 20px rebeccapurple;
+    background-color: rgb(81, 93, 228);
+}
+
+.btn-git{
+    box-shadow: 0 0 20px rebeccapurple;
+color: aliceblue;
+    background-color: black;
+}
