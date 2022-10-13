@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(53, 125, 0);
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.divFrase{
+    display: block;
+    width: 500px;
+    height: auto;
+    padding: 30px;
+    background: black;
+    color: white;
+    border-radius: 20px;
+    opacity: 0.7;
+}
+h1,p{
+    opacity: 1;
+    font-weight: bold;
+    opacity: 1;
+}
+.boton{
+    display: block;
+    margin: 20px auto;
+    padding:20px;
+font-size: 20px;
+background: pink;;
+color: white;
+border-radius: 10px;
+text-shadow: 0 0 5px;
+}
+
