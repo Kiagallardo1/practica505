@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   font-family: 'Peralta', cursive;
+
+    font-size: 25px;
+font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.header{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6NRfQoijCg5qk8WthHcghUupz9wqHMQ89_w&usqp=CAU);
+    
+border-radius: 30px 30px 0 0 ;
+width: 100%;
+height: 150px;
+border-bottom: 4px solid black;
+}
+
+.card{
+width:400px ;
+height: 500px;
+background-color: aliceblue;
+border-radius: 30px;
+box-shadow: 0 0 20px black;
+margin: 50px auto ;
+position: relative;
+top: 100px;
+}
+
+img{
+    display : block ;
+    width : 150px ;
+    height : 150px ;
+    background:
+    linear-gradient ( Orgba ( 255,0,0,1 ) , Orgba ( 103,0,0,1)) padding-box ,
+    linear-gradient ( to right , rgba ( 255,0,0,1 ) ,Orgba ( 103,0,0,1 ) ) border - box ;
+    border-radius : 50% ;
+    border: 4px solid transparent ;
+    margin: auto ;
+    position: relative ;
+    top: 50px ;
+
+}
+
+.body{
+text-align: center;
+position: relative;
+top: 8px;
+}
+
+.footer{
+    padding-top: 10PX;
+    position: absolute;
+    bottom: 0;
+    height: 250PX;
+    width: 100%;
+    text-align: center;
+    border-top: 4px solid gray;
+}
+
+
+.dato{
+display: inline-block;
+padding: 20px;
+text-align: center;
+}
+
+.claro{
+margin: 1px;
+}
+.numero{
+ font-size : 25px ;
+font-weight : bolder ;
+text-shadow : 0 5px 5px gray ;
+}
+
+.tipo{
+    color: rgb(27, 19, 19);
+    font-size: 12px;
+
+}
+
