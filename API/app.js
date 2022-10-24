@@ -1,16 +1,30 @@
-const consumirAPI= async ()=>{
-    const respuesta= await fetch ("https://jsonplaceholder.typicode.com/todos/1")
-const json= await respuesta.json();
-console.log("USER ID:";+json.userID);
-console.log("ID:"+json.id);
-console.log("TITULO:"+json.title);
-console.log("COMPLETADO:"+json.completed);
-let div=document.createElement("div");
-div.className="cajita";
-div.innerHTML` <p><span></span>User Id:${json.userId}</p>
-<p>ID: ${json.id}</p>
-<p>Titulo: ${json.title}</p>
-<p>Completado: ${json.completed}</p>`;
-document.body.appendChild(div);
+var divResults = document.querySelector("#Resultado")
 
+const verFotos = async ()=>{
+
+let albums = parseInt(document.querySelector("#album").value);
+const respuesta= await fetch("https://jsonplaceholder.typicode.com/photos")
+const json = await respuesta.json();
+divResults.innerHTML="";
+json.map(foto=>{
+
+if(albums==parseInt(foto.albumId)){
+let divFoto=document.createElement("div");
+divFoto.className="foto";
+divFoto.innerHTML=`
+<img src="${foto.url}" width="100%" heigth="">
+<p>${foto.title}</p>
+<h2>${foto.id}</h2>
+`;
+divResults.appendChild(divFoto);
+
+
+}
+
+})
+
+}
+
+const clear = async () =>{
+divResults.innerHTML="";
 }

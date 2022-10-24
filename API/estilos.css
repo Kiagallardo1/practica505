@@ -1,28 +1,65 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    background: rgb(7, 41, 175);
-    background: linear-gradient(90deg, rgba(4,41,175,1)19%, rgba(57,145,246,1)100%);
-    font-family: ´Roboto`, sans-serif;
-    font-size:25px;
-    color: #fff;
-    font-weight:bold;
-    text-aligin: center;
-}
-.cajita{
+    font-size: 15px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(241, 140, 226) 0%, rgb(164, 206, 243) 35%, rgb(232, 224, 124) 100%);
+    font-weight: bold;
+    text-align: center;
+    
+    }
+    
+    select{
+        width: 200px;
+        height: 50px;
+    }
+    
+    #Resultado{
+    
+        display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: minmax(200px,auto);
+    gap: 20px;
+    padding: 20px;
+    }
+    
+    img{
+        display: flex;
+    }
+    
+    .cajita{
     width: 400px;
     height: auto;
     margin: auto;
     border-radius: 20px;
-    padding:20px;
-    background: red;
-    box-shadow: 0 0 10px black ;
-}
-span{
-    color:blue ;
-    text-shadow: 0 0 5ox black;
-}
-
+    padding: 20px;
+    background-color: rgb(185, 126, 245);
+    box-shadow: 0 0 5px solid black;
+    text-align: justify;
+    
+    }
+    
+    .cajita:hover{
+        transform: scale(1.01);
+    border:  2px solid rgb(143, 199, 255);
+    }
+    
+    span{
+        color: aqua;
+        text-shadow: 0 0 5px solid black;
+    }
+    
+    button{
+        background: black;
+        color: rgb(225, 179, 93);
+    
+    }
+    
+    button:hover{
+    border: 2px solid wheat;
+    transform: scale(1.05);
+    }
+    
+    .foto{
+        background-color: rgb(0, 0, 0);
+        border-radius: 20px;
+        padding: 20x ;
+    }
